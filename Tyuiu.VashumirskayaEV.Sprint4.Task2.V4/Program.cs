@@ -1,6 +1,6 @@
-﻿using Tyuiu.VashumirskayaEV.Sprint4.Task1.V9.Lib;
+﻿using Tyuiu.VashumirskayaEV.Sprint4.Task2.V4.Lib;
 
-namespace Tyuiu.VashumirskayaEV.Sprint4.Task1.V9
+namespace Tyuiu.VashumirskayaEV.Sprint4.Task2.V4
 {
     internal class Program
     {
@@ -11,27 +11,26 @@ namespace Tyuiu.VashumirskayaEV.Sprint4.Task1.V9
             Console.Title = "Спринт #4 | Выполнила: Вашумирская Е. В. | СМАРТб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
-            Console.WriteLine("* Тема: Поиск произведения четных элементов массива                       *");
-            Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #9                                                              *");
+            Console.WriteLine("* Тема: Подсчёт суммы нечётных элементов массива                          *");
+            Console.WriteLine("* Задание #2                                                              *");
+            Console.WriteLine("* Вариант #4                                                              *");
             Console.WriteLine("* Выполнила: Вашумирская Елизавета Владимировна | СМАРТб-25-1             *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая находит произведение всех четных элементов  *");
-            Console.WriteLine("* массива.                                                                *");
+            Console.WriteLine("* Написать программу, которая находит сумму нечётных элементов массива.  *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ :                                                       *");
             Console.WriteLine("***************************************************************************");
 
-            int[] array = { 6, 3, 3, 7, 7, 7, 7, 3, 3, 6, 4, 4, 8 };
+            int[] array = { 6, 3, 7, 7, 7, 3, 3, 6, 4, 8, 9, 1, 5 };
 
-            Console.WriteLine("Массив: 6, 3, 3, 7, 7, 7, 7, 3, 3, 6, 4, 4, 8");
+            Console.WriteLine("Массив: 6, 3, 7, 7, 7, 3, 3, 6, 4, 8, 9, 1, 5");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ :                                                             *");
             Console.WriteLine("***************************************************************************");
 
             int result = ds.Calculate(array);
-            Console.WriteLine($"Произведение четных элементов массива: {result}");
+            Console.WriteLine($"Сумма нечётных элементов массива: {result}");
 
             Console.ReadKey();
         }

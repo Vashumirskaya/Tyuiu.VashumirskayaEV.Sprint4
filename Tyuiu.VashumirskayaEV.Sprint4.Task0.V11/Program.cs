@@ -8,11 +8,11 @@ namespace Tyuiu.VashumirskayaEV.Sprint4.Task0.V11
         {
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #3 | Выполнила: Вашумирская Е. В. | СМАРТб-25-1";
+            Console.Title = "Спринт #4 | Выполнила: Вашумирская Е. В. | СМАРТб-25-1";
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Спринт #3                                                               *");
+            Console.WriteLine("* Спринт #4                                                               *");
             Console.WriteLine("* Тема: Поиск произведения нечётных элементов массива                      *");
-            Console.WriteLine("* Задание #11                                                             *");
+            Console.WriteLine("* Задание #0                                                             *");
             Console.WriteLine("* Вариант #11                                                            *");
             Console.WriteLine("* Выполнила: Вашумирская Елизавета Владимировна | СМАРТб-25-1            *");
             Console.WriteLine("***************************************************************************");
