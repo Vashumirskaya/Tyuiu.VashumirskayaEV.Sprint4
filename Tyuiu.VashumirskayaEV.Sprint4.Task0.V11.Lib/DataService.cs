@@ -17,7 +17,6 @@ namespace Tyuiu.VashumirskayaEV.Sprint4.Task0.V11.Lib
                     hasOdd = true;
                 }
             }
-
             return hasOdd ? product : 0;
         }
     }
