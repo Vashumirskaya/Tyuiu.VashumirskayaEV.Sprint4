@@ -8,7 +8,9 @@ namespace Tyuiu.VashumirskayaEV.Sprint4.Task6.V30.Lib
         {
             if (array == null)
             {
+
                 throw new ArgumentNullException(nameof(array));
+
             }
 
             string[] result = Array.FindAll(array, item => item.Length > 5);
